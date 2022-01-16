@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Shiddah Project</title>
+		<link rel="stylesheet" href="css/owl.carousel.min.css" />
+		<link rel="stylesheet" href="css/owl.theme.default.min.css" />
+		<link rel="stylesheet" href="./css/tailwind.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<!-- Navbar -->
+		<nav
+			class="flex items-center justify-between w-full h-16 pr-8 space-x-10 bg-transparent shadow"
+			style="background-color: #897f8b"
+		>
+			<!-- logo -->
+			<div class="flex items-center justify-center h-full p-6 bg-red-500 logo">
+				<a href="index.html">
+					<img src="./images/logo.png" alt="logo" class="" />
+				</a>
+			</div>
+			<!-- navbar items -->
+			<div
+				class="items-center justify-center flex-grow hidden px-10 space-x-10 uppercase md:flex text-bold"
+			>
+				<div class="">
+					<a href="#" class="p-[1rem] text-sm text-white nav_item">Home</a>
+				</div>
+				<div class="">
+					<a href="#" class="text-sm text-white nav_item">books</a>
+				</div>
+				<div class="">
+					<a href="#" class="text-sm text-white nav_item">program & events</a>
+				</div>
+				<div class="">
+					<a href="#" class="text-sm text-white nav_item">sessions</a>
+				</div>
+				<div class="">
+					<a href="#" class="text-sm text-white nav_item">SHAKTIPAT STREAM</a>
+				</div>
+				<div class="">
+					<a href="#" class="text-sm text-white nav_item">FREE RESOURCES</a>
+				</div>
+			</div>
+
+			<!-- Social links -->
+			<div class="flex justify-end space-x-4">
+				<div class="flex-1">
+					<a href="#" class="text-sm text-white">
+						<img src="./images/f_icon.png" alt="" />
+					</a>
+				</div>
+				<div class="flex-1">
+					<a href="#" class="text-sm text-white">
+						<img src="./images/youtuve_icon.png" alt="" />
+					</a>
+				</div>
+				<div class="flex-1">
+					<a href="#" class="text-sm text-white">
+						<img src="./images/coustom_icon.png" alt="" />
+					</a>
+				</div>
+			</div>
+
+			<!-- hamburger menu -->
+			<div class="items-center md:hidden">
+				<button
+					class="flex items-center justify-center text-white focus:outline-none"
+				>
+					<svg
+						class="w-6 h-6 fill-current"
+						viewBox="0 0 20 20"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+					</svg>
+				</button>
+			</div>
+		</nav>
+		<!--End Navbar -->
+
+		<!-- Hero Section -->
+		<div
+			class="flex items-center justify-center w-full h-screen mx-auto bg-center bg-no-repeat bg-cover"
+			style="background-image: url(./images/bg2_hero.jpg)"
+		>
+			<div
+				class="relative grid grid-flow-row grid-cols-12 space-x-4 overflow-hidden"
+			>
+				<div class="col-span-2"></div>
+
+				<!-- Hero text Aria -->
+				<div class="col-span-4 space-y-1">
+					<h1 class="text-3xl font-medium text-white opacity-20">01</h1>
+
+					<h1 class="text-3xl font-medium gradient-text">SIDDHA</h1>
+					<h1 class="text-3xl font-medium gradient-text">
+						SIDDHA KUNDALINI YOGA
+					</h1>
+
+					<p class="text-white">
+						On one hand, everything we perceive can be used as a tool to
+						reinforce our own imprisonment and bondage to illusion. On the other
+						hand, everything we perceive can also be used as a means to liberate
+					</p>
+				</div>
+				<div
+					class="relative flex flex-col items-center justify-center h-auto col-span-6 space-x-6 slider_container"
+					style="height: 300px"
+				>
+					<div
+						class="absolute flex items-center justify-center col-span-6 space-x-6 slider_cwrapper"
+						style="right: -70px"
+					>
+						<div class="bg-red-500 box-1">
+							<img
+								src="./images/slide_img01.png"
+								alt=""
+								id="item-1"
+								class="w-full h-full"
+							/>
+						</div>
+						<div class="bg-yellow-400 box-2">
+							<img
+								src="./images/slide_img02.png"
+								alt=""
+								class="w-full h-full"
+								id="item-2"
+							/>
+						</div>
+						<div class="bg-indigo-500 box-3">
+							<img
+								src="./images/slide_img03.png"
+								alt=""
+								id="item-3"
+								class="w-full h-full"
+							/>
+						</div>
+					</div>
+
+					<!-- <div class="absolute bottom-0 space-x-8">
+						<button class="cursor-pointer" id="prev">prev</button>
+						<button class="cursor-pointer" id="next">next</button>
+					</div> -->
+				</div>
+			</div>
+		</div>
+
+		<!-- Carousel -->
+		<!-- <div class="flex flex-col items-center justify-center">
+			<div class="flex items-center p-10 space-x-6 bg-red-500 slider">
+				<div class="slide active">
+					<img src="./images/slide_img01.jpg" alt="" />
+				</div>
+				<div class="slide">
+					<img src="./images/slide_img02.jpg" alt="" />
+				</div>
+				<div class="slide">
+					<img src="./images/slide_img03.jpg" alt="" />
+				</div>
+			</div>
+			<div class="flex mt-6 space-x-4 buttons">
+				<div
+					class="flex items-center justify-center w-6 h-6 bg-gray-500 rounded-full cursor-pointer next hover:bg-red-500"
+				>
+					<ion-icon name="chevron-back-outline"></ion-icon>
+				</div>
+				<div
+					class="flex items-center justify-center w-6 h-6 bg-gray-500 rounded-full cursor-pointer prev hover:bg-red-500"
+				>
+					<ion-icon name="chevron-forward-outline"></ion-icon>
+				</div>
+			</div>
+		</div> -->
+
+		<!--End Carousel -->
+
+		<!-- End Hero Section -->
+		<!-- SIDDHA KUNDALINI Section -->
+		<div class="main_wrapper">
+			<div
+				class="grid grid-cols-4 px-20 pt-6 space-x-10 bg-top bg-no-repeat bg-cover"
+				style="background-image: url(./images/pngwing_1.png)"
+			>
+				<!-- Image Section -->
+				<div class="flex items-center justify-center col-span-2">
+					<div
+						class="relative pt-4 pl-2 pr-4 gradient-box"
+						style="width: 37.1rem; height: 28rem"
+					>
+						<img
+							src="./images/kundalini_img.jpg"
+							alt="SIDDHA KUNDALINI "
+							class="absolute"
+							style="width: 35rem"
+						/>
+					</div>
+				</div>
+				<!-- Text Area -->
+				<div class="flex items-center col-span-2">
+					<div class="flex flex-col space-y-4">
+						<div class="space-y-2">
+							<h1 class="text-3xl font-medium gradient-text">SIDDHA</h1>
+							<h1 class="text-3xl font-medium gradient-text">KUNDALINI</h1>
+						</div>
+
+						<p class="text-gray-700">
+							On one hand, everything we perceive can be used as a tool to
+							reinforce our own imprisonment and bondage to illusion. On the
+							other hand, everything we perceive can also be used as a means to
+							liberate. On one hand, everything we perceive can be used as a
+							tool to reinforce our own imprisonment and bondage to illusion. On
+							the other hand, everything we perceive can also be used as a means
+							to liberate. On one hand, everything we perceive can be used as a
+							tool to reinforce our own imprisonment and bondage to illusion. On
+							the other hand, everything we perceive can also be used as a means
+							to liberateOn one hand, everything we perceive can be used as a
+							tool to reinforce our own imprisonment and bondage to illusion. On
+							the other hand, everything we perceive can also be used as a means
+							to liberate
+						</p>
+					</div>
+				</div>
+			</div>
+			<!--End SIDDHA KUNDALINI Section -->
+
+			<!-- Start Living Knowledge -->
+
+			<div class="mt-52 living_wrapper">
+				<div class="flex items-center pl-5 space-x-10">
+					<div class="">
+						<div class="flex items-center justify-center btn_wrapper">
+							<button
+								class="flex items-center justify-center text-5xl font-bold living_btn_1"
+							>
+								1
+							</button>
+						</div>
+					</div>
+					<div class="living_hr"></div>
+					<h1 class="text-3xl font-medium uppercase gradient-text">
+						living knowledge
+					</h1>
+				</div>
+				<!-- Param-Para Box -->
+				<div class="flex pt-10 pl-24 border-l-2">
+					<div class="w-0 living_vr"></div>
+					<div class="pl-40">
+						<div class="text-gray-800 living_content">
+							<h2 class="uppercase">Hardcover book</h2>
+							<h1 class="px-16 mb-4 text-4xl font-semibold text-right">
+								SIDDHA PARAM-PARA
+							</h1>
+							<div
+								class="flex flex-col w-7/12 ml-auto bg-white opacity-75 p-14 rounded-tl-3xl rounded-bl-3xl"
+							>
+								<h3 class="mb-2 text-xl font-semibold">
+									The Key to Bio-Spiritual Immortality: Awakening to Natural
+									Spirituality (Part 1) Kindle Edition
+								</h3>
+								<p class="text-md">
+									Part I gives the reader a true taste of yoga. The reader will
+									feel the vibratory quality of the text and will recognise it
+									as a transmission of direct experiential knowledge that goes
+									far beyond the words themselves...
+								</p>
+								<div class="mt-11">
+									<button
+										class="px-20 py-3 text-lg transition-all duration-300 ease-in-out border rounded-full border-gold_dark btn_explore hover:bg-gold_dark hover:text-white"
+									>
+										Explore
+									</button>
+								</div>
+							</div>
+						</div>
+
+						<!-- E-Books Box -->
+						<div class="absolute w-full mt-10">
+							<h1 class="pl-6 mb-3 font-semibold text-gray-200">E-BOOKS</h1>
+							<div class="w-full e_books_container">
+								<div class="owl-carousel owl-theme">
+									<div class="item">
+										<img src="./images/e-book1.png" alt="" />
+									</div>
+									<div class="item">
+										<img src="./images/e-book2.png" alt="" />
+									</div>
+									<div class="item">
+										<img src="./images/e-book3.png" alt="" />
+									</div>
+									<div class="item">
+										<img src="./images/e-book4.png" alt="" />
+									</div>
+									<div class="item">
+										<img src="./images/e-book5.png" alt="" />
+									</div>
+									<div class="item">
+										<img src="/images/e-book1.png" alt="" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Living Knowledge -->
+
+			<!-- Meet JivanMukti -->
+
+			<div class="mt-10">
+				<div class="flex items-center pl-5 space-x-10">
+					<div class="">
+						<div class="flex items-center justify-center btn_wrapper">
+							<button
+								class="flex items-center justify-center text-5xl font-bold living_btn_2"
+							>
+								2
+							</button>
+						</div>
+					</div>
+					<div class="living_hr"></div>
+					<h1 class="text-3xl font-medium uppercase gradient-text">
+						MEET JIVANMUKTI
+					</h1>
+				</div>
+				<div class="flex pt-10 pl-24 border-l-2">
+					<div class="w-0 living_vr"></div>
+					<div class="pl-40"></div>
+				</div>
+			</div>
+
+			<!--End Meet JivanMukti -->
+		</div>
+
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+		></script>
+		<script
+			nomodule
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+		></script>
+
+		<script src="./js/jquery-3.6.0.min.js"></script>
+		<script src="./js/owl.carousel.min.js"></script>
+
+		<script src="./js/index.js"></script>
+	</body>
+</html>

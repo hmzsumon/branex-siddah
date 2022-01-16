@@ -1,0 +1,238 @@
+body {
+	background: #f6f1ee;
+	/* background-image: url(./images/bg.png);
+	background-repeat: no-repeat;
+	background-size: cover; */
+	height: 100%;
+}
+
+.nav_item {
+	padding-bottom: 1.1rem;
+}
+
+.nav_item:hover {
+	border-bottom: 3px solid transparent;
+	border-image: linear-gradient(to right, #bda24d, #e1bb5d);
+	border-image-slice: 1;
+	transition: all 0.1s ease;
+}
+
+.logo {
+	background: #847b85;
+}
+
+.gradient-text {
+	background-image: linear-gradient(45deg, #d2b652, #cfac39);
+	background-size: 100%;
+	background-repeat: repeat;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-background-clip: text;
+	-moz-text-fill-color: transparent;
+}
+
+/* Kundalini Section */
+.img_wrapper {
+	border: 4px solid #847b85;
+}
+
+.gradient-box {
+	border: solid 2px transparent;
+	border: 2px solid #847b85;
+	border-image: linear-gradient(to right, #e0ba5c, #453b4f);
+	border-image-slice: 1;
+	/* background: linear-gradient(to right, red, orange); */
+}
+.inner-div {
+	width: 400px;
+	height: 400px;
+
+	margin: 2rem;
+	position: absolute;
+}
+
+/* Slider */
+
+/* Buttons Styles */
+.clip {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+.svg--source {
+	display: none;
+}
+
+.svg--icon {
+	width: 100%;
+	max-width: 5rem;
+	height: 100%;
+	max-height: 5rem;
+	display: block;
+	margin: 0 auto;
+	fill: currentColor;
+}
+
+.wrapper {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	padding: 1rem;
+}
+
+.share {
+	width: 5rem;
+	height: 5rem;
+	float: left;
+	margin: 0.5rem 1rem 0.5rem 0;
+	color: #353c4a;
+	border: 0.125rem solid #141122;
+	box-shadow: 0 0 8px 0 #141122;
+	border-radius: 50%;
+	transition: 250ms;
+	background-color: #251f3e;
+
+	&:last-child {
+		margin-right: 0;
+	}
+
+	&:hover,
+	&:focus {
+		//background: #f1f1f1;
+	}
+
+	&:focus {
+		outline-color: inherit;
+	}
+}
+
+.twitter {
+	&:hover,
+	&:focus {
+		color: #00aced;
+		box-shadow: 0 0 24px 0 #00aced;
+	}
+}
+
+.github {
+	&:hover,
+	&:focus {
+		color: #4183c4;
+		box-shadow: 0 0 24px 0 #4183c4;
+	}
+}
+
+.pinterest {
+	&:hover,
+	&:focus {
+		color: #bd081c;
+		box-shadow: 0 0 24px 0 #bd081c;
+	}
+}
+
+.youtube {
+	&:hover,
+	&:focus {
+		color: #cd201f;
+		box-shadow: 0 0 24px 0 #cd201f;
+	}
+}
+
+.facebook {
+	&:hover,
+	&:focus {
+		color: #3b5998;
+		box-shadow: 0 0 24px 0 #3b5998;
+	}
+}
+
+.google {
+	&:hover,
+	&:focus {
+		color: #dd4b39;
+		box-shadow: 0 0 24px 0 #dd4b39;
+	}
+}
+/* End Button styles */
+.btn_wrapper {
+	height: 170px;
+	width: 170px;
+	border: 2px solid;
+	border-color: #d2b652;
+	border-radius: 50%;
+}
+.living_btn_1 {
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	background: #f3efef;
+	box-shadow: -3px -3px 7px #ffffffb2, 0px -6px 5px #868484;
+	color: #d2b652;
+}
+
+.living_btn_2 {
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	background: #1e1836;
+	box-shadow: -3px -3px 7px #1f1f1fb2, 0px -6px 5px #0e0b1a;
+	color: #d2b652;
+}
+
+/* start Living */
+.main_wrapper {
+	height: 100%;
+	background-image: url(../images/bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+}
+
+.living_wrapper {
+}
+
+.living_hr {
+	width: 285px;
+	border: 1px solid #d9ac3f;
+}
+
+.living_vr {
+	border: 1px solid #d9ac3f;
+	height: 1200px;
+}
+
+.living_content {
+	width: 980px;
+	background-color: transparent;
+	height: 645px;
+	border: solid 2px #e0ba5c;
+	border-radius: 15px;
+	background-color: rgba(161, 151, 170, 0.2);
+}
+
+.living_content h2 {
+	background-image: linear-gradient(to right, #cfbb84, #aa985f);
+	display: inline-block;
+	padding: 1rem 2rem;
+	margin-top: 3rem;
+	font-weight: 600;
+	font-size: 1.5rem;
+	border-radius: 0 15px 15px 0;
+	letter-spacing: 0.2rem;
+}
+
+/* E-Books */
+.e_books_container {
+	background: #342e49;
+	border: solid 2px #e0ba5c;
+	border-radius: 15px 0 0 15px;
+}
